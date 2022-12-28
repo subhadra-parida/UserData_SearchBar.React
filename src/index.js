@@ -15,3 +15,32 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+// import React, {usestate} from "react";
+// export default function Form(){
+//   const [data, setData] = usestate({
+//     isAgree : false, gender : ""
+//   })
+//   const handlechange = event =>{
+//     const target = event.target
+//     const name = target.name
+//     const value = target.value
+//     setData({
+//       ...data,[name]:value
+//     })
+//   }
+// return(
+//   <form>
+//     <div>
+//       <label>Male :</label>
+//       <input type ="radio" name="gender" value="male"
+//        onChange={handlechange} checked={data.gender === "male" }/>
+
+//       <label>Female :</label>
+//       <input type ="radio" name="gender" value="female" 
+//       onChange={handlechange} checked={data.gender === "female" }/>
+//     </div>
+//     <p>Gender : {data.gender}</p>
+//   </form>
+// )
+// }
